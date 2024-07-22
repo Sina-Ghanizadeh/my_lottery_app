@@ -329,6 +329,7 @@ class _HomePageState extends State<HomePage>
   }
 
   Widget _display(String text) {
+    return SizedBox();
     return Text(
       text,
       style: const TextStyle(color: Colors.white, fontSize: 20),
