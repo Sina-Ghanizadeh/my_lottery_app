@@ -30,11 +30,17 @@ class _HomePageState extends State<HomePage>
   bool _clockwise = true;
   static final _random = Random();
   var units = <RouletteUnit>[
-    RouletteUnit.text("Amir", weight: 1, color: Colors.green),
-    RouletteUnit.text("Mehdi", weight: 0.68, color: Colors.pink),
-    RouletteUnit.text("Jamshidi", weight: 0.27, color: Colors.blue),
-    RouletteUnit.text("Sina", weight: 0.67, color: Colors.red),
-    RouletteUnit.text("Arman", weight: 0.66, color: Colors.orange),
+    // RouletteUnit.text("Amir", weight: 1, color: Colors.green),
+    RouletteUnit.text("Mehdi", weight: 0.8, color: Colors.purple),
+    RouletteUnit.text("Alireza", weight: 0.93, color: Colors.green),
+    RouletteUnit.text("Sina", weight: 1, color: Colors.red),
+    RouletteUnit.text("Arman", weight: 0.8, color: Colors.yellow),
+    RouletteUnit.text("Mohsen", weight: 0.88, color: Colors.blue),
+    RouletteUnit.text(
+      "Reza",
+      weight: 0.94,
+      color: Colors.orange,
+    ),
   ];
   //Confetti
   late ConfettiController _controllerCenter;
